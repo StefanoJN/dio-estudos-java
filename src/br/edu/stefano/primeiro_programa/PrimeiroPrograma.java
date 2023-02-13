@@ -1,7 +1,7 @@
-package br.com.dio;
+package br.edu.stefano.primeiro_programa;
 
-import br.com.dio.model.Gato;
-import br.com.dio.model.Livro;
+import br.edu.stefano.primeiro_programa.model.Gato;
+import br.edu.stefano.primeiro_programa.model.Livro;
 
 public class PrimeiroPrograma {
     public static void main(String[] args) {
@@ -11,6 +11,6 @@ public class PrimeiroPrograma {
         gato.setIdade(1);
         System.out.println(gato.getNome() + " " + gato.getIdade());
         Livro livro = new Livro("Tres Porquinhos", 328);
-        System.out.println(livro.getName()+" Paginas:"+livro.getPagina());
+        System.out.println(livro.getName() + " Paginas:" + livro.getPagina());
     }
 }

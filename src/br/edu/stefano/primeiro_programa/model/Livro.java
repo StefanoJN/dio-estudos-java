@@ -1,4 +1,4 @@
-package br.com.dio.model;
+package br.edu.stefano.primeiro_programa.model;
 
 public class Livro {
     private String name;
