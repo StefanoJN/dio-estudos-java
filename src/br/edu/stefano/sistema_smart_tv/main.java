@@ -1,7 +1,6 @@
 package br.edu.stefano.sistema_smart_tv;
 
 import br.edu.stefano.sistema_smart_tv.model.SmartTv;
-
 public class main {
     public static void main(String[] args) {
         SmartTv smartTv= new SmartTv();
